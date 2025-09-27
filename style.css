@@ -1,0 +1,10 @@
+.headerbackground {
+    background-color: rgb(197, 238, 240);
+    text-shadow: 1cm;
+    text-align: center;
+    color: azure;
+    font-size: 100px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
