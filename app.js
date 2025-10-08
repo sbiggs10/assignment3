@@ -48,8 +48,21 @@ while (price < 30) {
 let message = "Hi! My name is Sadie Biggs and I have a dog named Daisy!"; //this is a string variable
 
 
-const person = {firstName:"Sadie", lastName:"Biggs", age:20, eyeColor:"blue"}; //object variable
+const person = {firstName:"Sadie", lastName:"Biggs", age:20, eyeColor:"blue",
+    sayName: function() {
+        console.log(this.age);
+    }
+}; //object variable
 
+person.sayName();
+
+
+
+  const blooms = ["lilies", "petunias", "roses", "daffodils"]; //here is my array
+  
+  blooms.push("lilacs"); //here is my array method
+
+  console.log(blooms);
 
 {
     let blooms = 96;
